@@ -50,7 +50,7 @@
    5. patch (更新时只需要携带需要更新的字段)
 
 ### 4.1 DRF安装，使用豆瓣源
-   1. `pip install djangrestframework -i https://pypi.douban.com/simple`
+   1. `pip install djangorestframework -i https://pypi.douban.com/simple`
    2. 修改settings配置文件， INSTALLED_APPS 中添加 `rest_framework`
 ### 4.2 实现
    1. 序列化：负责对象和json格式数据的相互转换

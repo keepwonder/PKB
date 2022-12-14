@@ -2,5 +2,10 @@
 
 
 # python 相关
-.pyc
+*.pyc
 __pycache__
+dev.py
+product.py
+
+# 数据迁移文件
+migrations
