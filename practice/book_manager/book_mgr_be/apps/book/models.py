@@ -42,7 +42,7 @@ class Producer(models.Model):
 
 
 class Book(models.Model):
-    isbn = models.CharField(max_length=50, verbose_name='ISBN', primary_key=True, null=False,blank=False)
+    isbn = models.CharField(max_length=50, verbose_name='ISBN', null=False,blank=False)
     name = models.CharField(max_length=50,verbose_name='书名', null=False, blank=False)
     bk_type = models.CharField(max_length=10, verbose_name='类型', null=False, blank=False)
     cover = models.CharField(max_length=100, verbose_name='封面', null=True, blank=True)
