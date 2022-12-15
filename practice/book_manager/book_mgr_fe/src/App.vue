@@ -4,7 +4,7 @@ import Demo from './components/Demo.vue'
 </script>
 
 <template>
-  <div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -13,7 +13,9 @@ import Demo from './components/Demo.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <Demo></Demo>
+  <Demo></Demo> -->
+
+  <RouterView></RouterView>
 </template>
 
 <style scoped>
