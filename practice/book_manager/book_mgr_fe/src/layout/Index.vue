@@ -1,15 +1,24 @@
 <script setup lang="ts">
 import HeaderVue from "./header/Header.vue"
 import MenuVue from "./menu/Menu.vue"
+
+// 导入图标
+import { Edit } from '@element-plus/icons-vue'
 </script>
 
 <template>
 
     <el-container class="layout">
-        <el-aside class="aside" width="auto"><MenuVue></MenuVue></el-aside>
+        <el-aside class="aside" width="auto">
+            <MenuVue></MenuVue>
+        </el-aside>
         <el-container>
-            <el-header class="header"><HeaderVue></HeaderVue></el-header>
-            <el-main class="main">Main</el-main>
+            <el-header class="header">
+                <HeaderVue></HeaderVue>
+            </el-header>
+            <el-main class="main">Main <el-icon color="red">
+                    <Edit />
+                </el-icon> </el-main>
         </el-container>
     </el-container>
 
@@ -32,5 +41,4 @@ import MenuVue from "./menu/Menu.vue"
 .aside {
     background-color: #304156
 }
-
 </style>
