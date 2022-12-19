@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// 接收父组件的传值
+// defineProps<{username: string}>();
+
+</script>
 
 <template>
     <el-dropdown>
@@ -6,6 +10,7 @@
         <el-icon style="margin-right:10px">
         <UserFilled />
       </el-icon>
+      <!-- <span>{{username}}</span> -->
       <span>小唐</span>
       <el-icon class="el-icon--right" style="margin-left:10px">
         <arrow-down />

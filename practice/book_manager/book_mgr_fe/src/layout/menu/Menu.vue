@@ -1,15 +1,19 @@
 <script setup lang="ts">
+import { ref } from "vue"
+
 import MenuLogoVue from './MenuLogo.vue'
-import MenuItemVue from './MenuItem.vue';
+import MenuItemVue from './MenuItem.vue'
+
+let isCollapse = ref(false)
 
 </script>
 
 <template>
     <!-- logo区域 -->
-    <MenuLogoVue class="layout-logo"></MenuLogoVue>
+    <MenuLogoVue class="layout-logo" style="display: none"></MenuLogoVue>
     <!-- 侧边栏导航 -->
     <el-menu active-text-color="#ffd04b" background-color="#304156" class="el-menu-vertical-demo" default-active="2"
-        text-color="#fff">
+        text-color="#fff" :collapse=isCollapse>
         <MenuItemVue></MenuItemVue>
     </el-menu>
 </template>
