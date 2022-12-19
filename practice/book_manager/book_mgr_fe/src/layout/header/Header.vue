@@ -17,7 +17,7 @@ F
     </div>
 
     <!-- <UserInfoVue :username="name"></UserInfoVue> -->
-    <UserInfoVue :username="name"></UserInfoVue>
+    <UserInfoVue></UserInfoVue>
 
 </template>
 
