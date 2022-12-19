@@ -38,7 +38,7 @@ let menuList = reactive([
                 },
             },
             {
-                path: '/book_mgr/auhtors',
+                path: '/book_mgr/authors',
                 meta: {
                     title: '作者管理',
                     icon: 'Setting',
@@ -69,7 +69,7 @@ let menuList = reactive([
                 },
             },
             {
-                path: '/user_mgr/auhtorization',
+                path: '/user_mgr/authorization',
                 meta: {
                     title: '权限管理',
                     icon: 'Setting',

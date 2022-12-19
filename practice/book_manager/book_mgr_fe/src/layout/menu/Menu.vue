@@ -21,7 +21,7 @@ const isCollapse = computed(()=>{
     <MenuLogoVue class="layout-logo" v-if="!isCollapse"></MenuLogoVue>
     <!-- 侧边栏导航 -->
     <el-menu active-text-color="#ffd04b" background-color="#304156" class="el-menu-vertical-demo" default-active="2"
-        text-color="#fff" :collapse=isCollapse>
+        text-color="#fff" :collapse=isCollapse router>
         <MenuItemVue></MenuItemVue>
     </el-menu>
 </template>

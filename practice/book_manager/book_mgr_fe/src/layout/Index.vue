@@ -16,9 +16,9 @@ import { Edit } from '@element-plus/icons-vue'
             <el-header class="header">
                 <HeaderVue></HeaderVue>
             </el-header>
-            <el-main class="main">Main <el-icon color="red">
-                    <Edit />
-                </el-icon> </el-main>
+            <el-main class="main">
+                <router-view></router-view>
+            </el-main>
         </el-container>
     </el-container>
 
