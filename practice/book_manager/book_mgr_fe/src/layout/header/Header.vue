@@ -1,5 +1,20 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CollapseVue from "./Collapse.vue"
+import BreadCrumbVue from "./BreadCrumb.vue"
+import UserInfoVue from "./UserInfo.vue"
 
-<template>Header区域</template>
+</script>
 
-<style scoped></style>
+<template>
+    <div style="display: flex; align-items: center">
+        <CollapseVue></CollapseVue>
+        <BreadCrumbVue></BreadCrumbVue>
+    </div>
+
+    <UserInfoVue></UserInfoVue>
+
+</template>
+
+<style scoped>
+
+</style>
