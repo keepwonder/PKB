@@ -1,18 +1,14 @@
 import {createRouter, createWebHistory, RouteRecordRaw} from 'vue-router'
 
-import HelloWorld from '../components/HelloWorld.vue'
-import Demo from '../components/Demo.vue'
+import Index from '../layout/Index.vue'
 
 // 创建路由匹配的数据集合 ---Array
 const routes: Array<RouteRecordRaw> =  [
     {
         path: '/',
-        component: HelloWorld
+        component: Index,
     },
-    {
-        path: '/demo',
-        component: Demo,
-    },
+    
 ]
 
 
