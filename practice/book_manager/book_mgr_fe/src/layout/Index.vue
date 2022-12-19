@@ -6,7 +6,7 @@ import MenuVue from "./menu/Menu.vue"
 <template>
 
     <el-container class="layout">
-        <el-aside class="aside" width="200px"><MenuVue></MenuVue></el-aside>
+        <el-aside class="aside" width="auto"><MenuVue></MenuVue></el-aside>
         <el-container>
             <el-header class="header"><HeaderVue></HeaderVue></el-header>
             <el-main class="main">Main</el-main>
@@ -21,7 +21,6 @@ import MenuVue from "./menu/Menu.vue"
 }
 
 .header {
-    background-color: #d3f5e6;
     background-color: lightblue;
     height: 50px;
     border-bottom: 1px solid #e5e5e5;
@@ -31,10 +30,7 @@ import MenuVue from "./menu/Menu.vue"
 }
 
 .aside {
-    background-color: #e3f4d2
+    background-color: #304156
 }
 
-.main {
-    background-color: #eee3d2
-}
 </style>
